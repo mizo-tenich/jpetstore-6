@@ -63,7 +63,7 @@
 	<stripes:link
 		beanclass="org.mybatis.jpetstore.web.actions.AccountActionBean"
 		event="signonForm">
-          Sign In
+          --Sign In--
 	    </stripes:link>
 </c:if> <c:if test="${sessionScope.accountBean != null}">
 	<c:if test="${!sessionScope.accountBean.authenticated}">
